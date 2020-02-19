@@ -30,10 +30,10 @@ if __name__ == '__main__':
     # images to be shown
     image_list = list()
     image_list.append('./data/img.png')
-    image_list.append('./data/img2.png')
-    image_list.append('./data/img3.png')
-    image_list.append('./data/img4.png')
-    image_list.append('./data/img5.png')
+    # image_list.append('./data/img2.png')
+    # image_list.append('./data/img3.png')
+    # image_list.append('./data/img4.png')
+    # image_list.append('./data/img5.png')
 
     # network input
     image_tf = tf.placeholder(tf.float32, shape=(1, 240, 320, 3))

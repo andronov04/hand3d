@@ -1,0 +1,46 @@
+# output dir
+output
+instant_test_output
+inference_test_output
+
+
+*.jpg
+*.png
+*.txt
+
+# compilation and distribution
+__pycache__
+_ext
+*.pyc
+*.so
+build/
+dist/
+lib/
+
+# pytorch/python/numpy formats
+*.pth
+*.pkl
+*.npy
+
+# ipython/jupyter notebooks
+*.ipynb
+**/.ipynb_checkpoints/
+
+# Editor temporaries
+*.swn
+*.swo
+*.swp
+*~
+
+# Pycharm editor settings
+.idea
+
+# project dirs
+/core/input
+/core/output
+/core/data
+/weights
+/results
+
+.DS_Store
+INFO.md
